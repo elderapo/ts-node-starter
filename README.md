@@ -11,6 +11,8 @@ git clone --depth=1 --branch=master git@github.com:elderapo/ts-node-starter.git 
 cd $MY_PROJECT
 rm -rf .git
 git init
+git add .
+git commit -m "Init"
 yarn
 yarn start
 ```
